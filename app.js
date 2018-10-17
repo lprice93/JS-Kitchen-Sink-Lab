@@ -80,12 +80,12 @@ console.log(getLength("Hello World!"));
 
 // you do not have to retype "hello world!" here as it automatically references the argument inside isEven var
 var isEven = getLength("Hello World!"); {
-    if (isEven % 2 === 0);
+    console.log(isEven);
 }
 
 // be sure to define isEven or isOdd. define one and JavaScript will determine the other as true or false
-if (getLength("Hello World!") == length.isEven) {
+if (isEven % 2 === 0) {
     alert("The world is nice and even!");
-} else (getLength("Hello World!") == length.isOdd); {
+} else {
     alert("The world is an odd place!");
 }
