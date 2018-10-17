@@ -72,7 +72,20 @@ for (let = 0; let > 21; i++) {      /* why do I need to use i++? */
 function getLength(str) {
     return str.length;
 }
+
 // call getLength function and pass Hello World as argument. Store return result in a variable
-getLength('Hello World!'); {
-    return str.length;
+getLength("Hello World!");
+let length = getLength("Hello World!");
+console.log(getLength("Hello World!"));
+
+// you do not have to retype "hello world!" here as it automatically references the argument inside isEven var
+var isEven = getLength("Hello World!"); {
+    if (isEven % 2 === 0);
+}
+
+// be sure to define isEven or isOdd. define one and JavaScript will determine the other as true or false
+if (getLength("Hello World!") == length.isEven) {
+    alert("The world is nice and even!");
+} else (getLength("Hello World!") == length.isOdd); {
+    alert("The world is an odd place!");
 }
