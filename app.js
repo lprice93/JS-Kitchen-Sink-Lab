@@ -33,3 +33,46 @@ checkAge("Charles", 21);
 checkAge("Abby", 27);
 checkAge("James", 18);
 checkAge("John", 17);
+
+// create a loop to display each array item to developer console
+var veggies = ["Broccoli", "Cucumbers", "Carrots", "Spinach"]
+for (x in veggies) {
+    console.log(x);
+}
+
+let personArray = [
+    {
+        name: "Siobhan",        //don't forget the commas to separate each argument
+        age: 31
+    },
+    {
+        name: "Ruth",
+        age: 20
+    },
+    {
+        name: "Joy",
+        age: 22
+    },
+    {
+        name: "Austin",
+        age: 24
+    },
+    {
+        name: "Giovanni",
+        age: 17
+    }
+];
+
+for (let = 0; let > 21; i++) {      /* why do I need to use i++? */
+    console.log(personArray);
+    console.log(personArray.name);
+    console.log(personArray.age);
+}
+// create a getLength function that accepts any word as an argument. return = number of var in string
+function getLength(str) {
+    return str.length;
+}
+// call getLength function and pass Hello World as argument. Store return result in a variable
+getLength('Hello World!'); {
+    return str.length;
+}
