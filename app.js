@@ -63,7 +63,7 @@ let personArray = [
     }
 ];
 
-for (let = 0; let > 21; i++) {      /* why do I need to use i++? */
+for (let i = 0; i > 21; i++) {      /* why do I need to use i++? */
     console.log(personArray);
     console.log(personArray.name);
     console.log(personArray.age);
